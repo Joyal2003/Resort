@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meadows | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .home-hero {
+            min-height: 78vh;
+            background:
+                linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.45)),
+                url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar bg-body-tertiary fixed-top bg-success" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">MEADOWS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MEADOWS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Rooms.html">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Adventures.html">Adventures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-5">
+        <section class="home-hero d-flex align-items-center text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <p class="text-uppercase fw-semibold mb-3">Welcome to</p>
+                        <h1 class="display-4 fw-bold">Meadows Resort</h1>
+                        <p class="lead">Experience the perfect blend of comfort, nature, and memorable stays in a peaceful getaway.</p>
+                        <a href="Contact.html" class="btn btn-warning btn-lg">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <p class="text-uppercase text-success fw-semibold mb-2">Why choose us</p>
+                    <h2>Everything you need for a perfect stay</h2>
+                </div>
+                <div class="row g-4 text-center">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title">Garden Rooms</h3>
+                                <p class="card-text">Wake up surrounded by calm greenery and soothing natural light.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title">Nature Trails</h3>
+                                <p class="card-text">Enjoy guided walks and scenic routes crafted for adventure and relaxation.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title">Seamless Stay</h3>
+                                <p class="card-text">From booking to check-out, every detail is designed around your comfort.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured-rooms" class="py-5 bg-light">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <p class="text-uppercase text-success fw-semibold mb-2">Stay</p>
+                    <h2>Featured rooms</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="images/01-garden-king-room.png" class="card-img-top" alt="Garden King Room" style="height: 220px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Garden King Room</h5>
+                                <p class="card-text">A peaceful king room with a private garden view and serene ambiance.</p>
+                                <p class="card-text"><small class="text-muted">41 sqm · 2 guests</small></p>
+                                <a href="Rooms.html" class="btn btn-success">View Room</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="images/02-family-twin-room.png" class="card-img-top" alt="Family Suite" style="height: 220px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Family Suite</h5>
+                                <p class="card-text">A spacious room with twin beds and enough room for everyone to relax.</p>
+                                <p class="card-text"><small class="text-muted">56 sqm · 4 guests</small></p>
+                                <a href="Rooms.html" class="btn btn-success">View Room</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="images/04-deluxe-suite.png" class="card-img-top" alt="Tropical Living Suite" style="height: 220px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Tropical Living Suite</h5>
+                                <p class="card-text">Enjoy a calm, refined suite with a sitting area and elegant interior.</p>
+                                <p class="card-text"><small class="text-muted">60 sqm · 3 guests</small></p>
+                                <a href="Rooms.html" class="btn btn-success">View Room</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="adventure-highlights" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <p class="text-uppercase text-success fw-semibold mb-2">Adventure</p>
+                    <h2>Outdoor experiences</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Forest walks" style="height: 220px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Forest Walks</h5>
+                                <p class="card-text">Explore tranquil trails and scenic viewpoints through the surrounding landscape.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="River adventure" style="height: 220px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">River Adventures</h5>
+                                <p class="card-text">Take in the breeze and fresh air with guided experiences on the water.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Sunset views" style="height: 220px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title">Sunset Views</h5>
+                                <p class="card-text">Wind down with golden-hour views and unforgettable evening moments.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-summary" class="py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-6">
+                        <p class="text-uppercase text-success fw-semibold mb-2">About us</p>
+                        <h2 class="mb-3">A peaceful escape in nature</h2>
+                        <p class="lead">At Meadows Resort, we mix modern comfort with the calm of the outdoors to create restful and memorable stays for every guest.</p>
+                        <p>We focus on sustainability, thoughtful comfort, and experiences that help you reconnect with nature.</p>
+                        <a href="About.html" class="btn btn-success">Learn More</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80" alt="About resort" class="img-fluid rounded shadow-sm">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-light py-4 mt-5">
+        <div class="bg-warning w-100">
+            <p class="container mb-0 py-3">
+                © Designed and Built for Joyal Thomas, All Rights Reserved 2026
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
